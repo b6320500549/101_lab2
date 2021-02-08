@@ -8,11 +8,11 @@ int main()
   {
   printf("Enter b:");
   scanf("%d",&b);
-   if(a>=0&&a<=30)
+   if(b>=0&&b<=30)
   {
   printf("Enter c:");
   scanf("%d",&c);
-   if(a>=0&&a<=40)
+   if(c>=0&&c<=40)
   {
    sum = a+b+c;
   if(sum>=80)
