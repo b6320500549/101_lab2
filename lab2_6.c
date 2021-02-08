@@ -12,6 +12,13 @@ int main(){
 		a=a/10;
 	}
 
+    for(i--;i>=0;i--){
+		for(j=0;j<10;j++)
+			if(c[i]==j)
+				printf("%s",b[j]);
+			if(i!=0)
+				printf("-");
 
+	}
 	return 0;
 }
