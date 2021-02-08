@@ -5,7 +5,7 @@ int main()
   scanf("%d",&a);
   scanf("%d",&b);
   scanf("%d",&c);
-  if(a>=0&&a<=30||b>=0&&b<=30||c>=0&&c<=40)
+  if(a>=0&&a<=30&&b>=0&&b<=30&&c>=0&&c<=40)
   {
    sum = a+b+c;
   if(sum>=80)
